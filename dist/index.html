@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Armonía</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#">Armonia</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                    </ul>
+                    <form class="d-flex ms-lg-2">
+                        <div class="btn btn-outline-dark" id="btnCarro">
+                            <a href="carrito.html">
+                            <i class="bi-cart-fill me-1"></i>
+                            <span class="badge bg-dark text-white ms-1 rounded-pill"></span>
+                        </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Armonía</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">Nuestros productos estan realizados pensando en su bienestar en el hogar, logrando a través de las fragancias un ambiente de conformidad</p>
+                </div>
+            </div>
+        </header>
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="Productos">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="./img/Velas.jpg" alt="velas"/>
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Velas</h5>
+                                    $200
+                                </div>
+                            </div>
+                            <div class="btn-toolbar justify-content-center p-4 " role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                    <input type="number" class="btn btn-secondary" id="numberVelas">
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" id= "btnComprarVelas" href="#">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="./img/Aceite Escenciales.jpg" alt="aceite esencial"/>
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Aceite Esencial</h5>
+                                    <span class="text-muted text-decoration-line-through">$450</span>
+                                    $300
+                                </div>
+                            </div>
+                            <div class="btn-toolbar justify-content-center p-4 " role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                <input type="number" class="btn btn-secondary" id="numberAceite">
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" id="btnComprarAceites" href="#">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="./img/Jabones.jpg" alt="Jabones"/>
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Jabones</h5>
+                                    $100
+                                </div>
+                            </div>
+                            <div class="btn-toolbar justify-content-center p-4 " role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                    <input type="number" class="btn btn-secondary" id="numberJabones">
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" id="btnComprarJabones" href="#">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="./img/Difusores.jpg" alt="difusor de aroma"/>
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Difusores</h5>
+                                    $1.200
+                                </div>
+                            </div>
+                            <div class="btn-toolbar justify-content-center p-4 " role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                    <input type="number" class="btn btn-secondary" id="numberDifusores">
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" id="btnComprarDifusores" href="#">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <img class="card-img-top" src="./img/Fuentes de Agua.jpg" alt="fuente de agua"/>
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Fuentes de Agua</h5>
+                                    <span class="text-muted text-decoration-line-through">$2.000</span>
+                                    $1.700
+                                </div>
+                            </div>
+                            <div class="btn-toolbar justify-content-center p-4 " role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                    <input type="number" class="btn btn-secondary" id="numberFuente">
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" id="btnComprarFuente" href="#">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="./img/Lamparas de Sal.jpg" alt="lampara de sal"/>
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Lámparas de Sal</h5>
+                                    $800
+                                </div>
+                            </div>
+                            <div class="btn-toolbar justify-content-center p-4 " role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                    <input type="number" class="btn btn-secondary" id="numberLampara">
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" id="btnComprarLampara" href="#">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="./img/Inciensos.jpg" alt="incienso"/>
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Inciensos</h5>
+                                    <span class="text-muted text-decoration-line-through">$80</span>
+                                    $50
+                                </div>
+                            </div>
+                            <div class="btn-toolbar justify-content-center p-4 " role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                    <input type="number" class="btn btn-secondary" id="numberInciensos">
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" id="btnComprarInciensos" href="#">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="./img/Fragancia.jpg" alt="fragancia" />
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">Fragancia</h5>
+                                    $600
+                                </div>
+                            </div>
+                            <div class="btn-toolbar justify-content-center p-4 " role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                    <input type="number" class="btn btn-secondary" id="numberFragancia">
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" id="btnComprarFragancia" href="#">Comprar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="ProductosBd">
+                </div>
+            </div>
+        </section>
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Tel. 2412 2535</p></div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
